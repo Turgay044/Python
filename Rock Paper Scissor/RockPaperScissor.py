@@ -30,25 +30,19 @@ while count < round:
     print(30*"#")
     if player_selection == 1 and computer_selection == 2:
         computer_score += 1
-        print(f"Player Score = {player_score}\nComputer Score = {computer_score}\nDraw = {equality}\n" + 30*"#"+ "\n")
     elif player_selection == 1 and computer_selection == 3:
         player_score += 1
-        print(f"Player Score = {player_score}\nComputer Score = {computer_score}\nDraw = {equality}\n" + 30*"#"+ "\n")
     elif player_selection == 2 and computer_selection == 1:
         player_score += 1
-        print(f"Player Score = {player_score}\nComputer Score = {computer_score}\nDraw = {equality}\n" + 30*"#"+ "\n")
     elif player_selection == 2 and computer_selection == 3:
         computer_score += 1
-        print(f"Player Score = {player_score}\nComputer Score = {computer_score}\nDraw = {equality}\n" + 30*"#"+ "\n")
     elif player_selection == 3 and computer_selection == 1:
         computer_score += 1
-        print(f"Player Score = {player_score}\nComputer Score = {computer_score}\nDraw = {equality}\n" + 30*"#"+ "\n")
     elif player_selection == 3 and computer_selection == 2:
         player_score += 1
-        print(f"Player Score = {player_score}\nComputer Score = {computer_score}\nDraw = {equality}\n" + 30*"#"+ "\n")
     else:
         equality += 1
-        print(f"Player Score = {player_score}\nComputer Score = {computer_score}\nDraw = {equality}\n" + 30*"#"+ "\n")
+    print(f"Player Score = {player_score}\nComputer Score = {computer_score}\nDraw = {equality}\n" + 30*"#"+ "\n")
     count += 1
 
 if computer_score > player_score:
